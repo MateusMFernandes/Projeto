@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+body {
+    position: ab;
+    height: 100vh;
+    width: 100vh;
+    background: url(../Imagens/imagem-fundo.jpg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+}
+section#celular{
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 555px;
+    width: 265px;
+    position: absolute;
+    background-position: 50% 50%;
+    background: url(../Imagens/frame-iphone.png) no-repeat;
+}
+iframe#tela {
+    top: 48%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    height: 399px;
+    width: 226px;
+    position: relative;
+    background: url(../Imagens/telacelular.jpg);
+    background-size: cover;
+}
+section#redes-social img {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.685);
+    box-sizing: border-box;
+}
+section#redes-social a :hover{
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.911);
+    transform: translate(-3px, -3px);
+    transition: 0.3s, border 0.1s;
+}
+section#redes-social {
+    text-align: right;
+    
+}
